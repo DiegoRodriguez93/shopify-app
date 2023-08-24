@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "unlock-returns-v2"
+client_id = "02799ff706b1d7cd8eb8457221e3635d"
+application_url = "https://suites-waiting-bonus-fr.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [
+  "https://suites-waiting-bonus-fr.trycloudflare.com/auth/callback",
+  "https://suites-waiting-bonus-fr.trycloudflare.com/auth/shopify/callback",
+  "https://suites-waiting-bonus-fr.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "unlock-returns-test.myshopify.com"
