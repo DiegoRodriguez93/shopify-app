@@ -17,6 +17,7 @@
     "prisma": "prisma",
     "setup": "prisma generate && prisma migrate deploy"
   },
+  "engines": {"node": ">=16.17.0"},
   "dependencies": {
     "@prisma/client": "^4.13.0",
     "@remix-run/node": "^1.19.1",
