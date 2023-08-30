@@ -21,6 +21,7 @@ import {
 } from "@shopify/polaris";
 
 import { authenticate } from "../shopify.server";
+console.log("authenticate :>> ", JSON.stringify(authenticate));
 
 export const loader = async ({ request }) => {
   const { session } = await authenticate.admin(request);

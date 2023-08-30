@@ -2,7 +2,7 @@
 
 name = "unlock-returns-v2"
 client_id = "02799ff706b1d7cd8eb8457221e3635d"
-application_url = "https://suites-waiting-bonus-fr.trycloudflare.com"
+application_url = "https://represent-ecommerce-gmc-instead.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -12,9 +12,9 @@ use_legacy_install_flow = true
 
 [auth]
 redirect_urls = [
-  "https://suites-waiting-bonus-fr.trycloudflare.com/auth/callback",
-  "https://suites-waiting-bonus-fr.trycloudflare.com/auth/shopify/callback",
-  "https://suites-waiting-bonus-fr.trycloudflare.com/api/auth/callback"
+  "https://represent-ecommerce-gmc-instead.trycloudflare.com/auth/callback",
+  "https://represent-ecommerce-gmc-instead.trycloudflare.com/auth/shopify/callback",
+  "https://represent-ecommerce-gmc-instead.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
